@@ -493,3 +493,477 @@ LogInit: Object subsystem initialized
 [2018.01.10-22.12.13:273][796]LogHMD: FOculusRiftSplash::Hide
 [2018.01.10-22.12.13:273][796]LogHMD: FOculusRiftSplash::PushBlackFrame
 [2018.01.10-22.12.13:273][796]LogLoad: Took 0.119280 seconds to LoadMap(/Game/Maps/Sudoku)
+[2018.01.10-22.14.56:641][930]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.01.10-22.14.56:680][930]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.01.10-22.15.56:719][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SingleGridWidget" FILE="../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset" SILENT=true
+[2018.01.10-22.15.56:761][518]LogSavePackage: Save=26.51ms
+[2018.01.10-22.15.56:761][518]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Saved/SingleGridWidget51E8B0C24C215D3F90951EBA547A01B3.tmp' to '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset'
+[2018.01.10-22.15.56:769][518]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset
+[2018.01.10-22.23.35:241][357]BlueprintLog: New page: Compile SingleGridWidget
+[2018.01.10-22.23.35:757][378]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SingleGridWidget" FILE="../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset" SILENT=true
+[2018.01.10-22.23.35:794][378]LogSavePackage: Save=22.45ms
+[2018.01.10-22.23.35:794][378]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Saved/SingleGridWidget8E9C59C74A759ADE625214B2327FA9BA.tmp' to '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset'
+[2018.01.10-22.23.35:801][378]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset
+[2018.01.10-22.23.37:906][503]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.10-22.23.37:926][503]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.01.10-22.23.37:926][503]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.10-22.23.37:926][503]PIE: New page: PIE session: MainMenu (11 Jan 2018 8:23:37 pm)
+[2018.01.10-22.23.37:926][503]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2018.01.10-22.23.37:927][503]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000965s)
+[2018.01.10-22.23.37:928][503]LogAIModule: Creating AISystem for world MainMenu
+[2018.01.10-22.23.37:928][503]LogPlayLevel: PIE: World Init took: (0.000722s)
+[2018.01.10-22.23.37:928][503]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.001843s)
+[2018.01.10-22.23.37:953][503]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.10-22.23.37:973][503]LogInit: FAudioDevice initialized.
+[2018.01.10-22.23.38:008][503]LogLoad: Game class is 'GameModeBase'
+[2018.01.10-22.23.38:010][503]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.01.11-09.23.38
+[2018.01.10-22.23.38:010][503]LogWorld: Bringing up level for play took: 0.001078
+[2018.01.10-22.23.38:012][503]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu -0.338
+[2018.01.10-22.23.38:012][503]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.01.10-22.23.38:601][538]LogNet: Browse: /Game/Maps/Sudoku
+[2018.01.10-22.23.38:601][538]LogLoadingSplash: Loading begins
+[2018.01.10-22.23.38:601][538]LogHMD: FOculusRiftSplash::PushBlackFrame
+[2018.01.10-22.23.38:601][538]LogHMD: FOculusRiftSplash::Show
+[2018.01.10-22.23.38:601][538]LogLoad: LoadMap: /Game/Maps/Sudoku
+[2018.01.10-22.23.38:618][538]Cmd: MEM
+[2018.01.10-22.23.38:635][538]LogMemory: Platform Memory Stats for Windows
+[2018.01.10-22.23.38:635][538]LogMemory: Process Physical Memory: 1219.58 MB used, 1219.59 MB peak
+[2018.01.10-22.23.38:635][538]LogMemory: Process Virtual Memory: 1644.60 MB used, 1663.88 MB peak
+[2018.01.10-22.23.38:635][538]LogMemory: Physical Memory: 7384.34 MB used,  8891.83 MB free, 16276.17 MB total
+[2018.01.10-22.23.38:635][538]LogMemory: Virtual Memory: 2631.93 MB used,  8891.83 MB free, 134217728.00 MB total
+[2018.01.10-22.23.38:635][538]LogMemory: 
+[2018.01.10-22.23.38:635][538]Allocator Stats for TBB: (not implemented)
+[2018.01.10-22.23.38:660][538]LogAIModule: Creating AISystem for world Sudoku
+[2018.01.10-22.23.38:660][538]LogLoad: Game class is 'GameModeBase'
+[2018.01.10-22.23.38:662][538]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sudoku.Sudoku up for play (max tick rate 60) at 2018.01.11-09.23.38
+[2018.01.10-22.23.38:662][538]LogWorld: Bringing up level for play took: 0.001177
+[2018.01.10-22.23.38:663][538]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.01.10-22.23.38:727][538]LogLoadingSplash: Loading ends
+[2018.01.10-22.23.38:727][538]LogHMD: FOculusRiftSplash::Hide
+[2018.01.10-22.23.38:727][538]LogHMD: FOculusRiftSplash::PushBlackFrame
+[2018.01.10-22.23.38:727][538]LogLoad: Took 0.125263 seconds to LoadMap(/Game/Maps/Sudoku)
+[2018.01.10-22.23.40:578][647]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.01.10-22.23.40:618][647]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.01.10-22.24.12:288][541]BlueprintLog: New page: Compile SingleGridWidget
+[2018.01.10-22.24.12:687][556]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SingleGridWidget" FILE="../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset" SILENT=true
+[2018.01.10-22.24.12:720][556]LogSavePackage: Save=24.36ms
+[2018.01.10-22.24.12:720][556]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Saved/SingleGridWidgetF8FEF8D945F76B9D873E3D876DCB4A64.tmp' to '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset'
+[2018.01.10-22.24.12:727][556]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset
+[2018.01.10-22.24.54:910][ 52]BlueprintLog: New page: Compile SingleGridWidget
+[2018.01.10-22.24.55:303][ 61]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SingleGridWidget" FILE="../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset" SILENT=true
+[2018.01.10-22.24.55:337][ 61]LogSavePackage: Save=23.66ms
+[2018.01.10-22.24.55:337][ 61]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Saved/SingleGridWidgetAC54C5D3408798695BD4419F4282204A.tmp' to '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset'
+[2018.01.10-22.24.55:345][ 61]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset
+[2018.01.10-22.25.24:074][768]BlueprintLog: New page: Compile SingleGridWidget
+[2018.01.10-22.25.24:443][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SingleGridWidget" FILE="../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset" SILENT=true
+[2018.01.10-22.25.24:476][781]LogSavePackage: Save=22.72ms
+[2018.01.10-22.25.24:476][781]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Saved/SingleGridWidget08AAE8CB427C99D08DF3A6BE20F6C007.tmp' to '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset'
+[2018.01.10-22.25.24:484][781]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset
+[2018.01.10-22.26.48:015][789]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SingleGridWidget" FILE="../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset" SILENT=true
+[2018.01.10-22.26.48:050][789]LogSavePackage: Save=24.45ms
+[2018.01.10-22.26.48:050][789]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Saved/SingleGridWidgetE0EB75D3497D0E68762483B5C52B3C76.tmp' to '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset'
+[2018.01.10-22.26.48:054][789]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset
+[2018.01.10-22.27.50:545][472]BlueprintLog: New page: Compile SingleGridWidget
+[2018.01.10-22.28.03:232][170]BlueprintLog: New page: Compile SingleGridWidget
+[2018.01.10-22.28.24:010][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SingleGridWidget" FILE="../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset" SILENT=true
+[2018.01.10-22.28.24:046][357]LogSavePackage: Save=26.18ms
+[2018.01.10-22.28.24:046][357]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Saved/SingleGridWidget4646BD8343BA97BF213CD3A6687D9CB0.tmp' to '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset'
+[2018.01.10-22.28.24:053][357]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset
+[2018.01.10-22.28.37:401][146]BlueprintLog: New page: Compile SingleGridWidget
+[2018.01.10-22.28.37:758][157]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SingleGridWidget" FILE="../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset" SILENT=true
+[2018.01.10-22.28.37:797][157]LogSavePackage: Save=26.71ms
+[2018.01.10-22.28.37:797][157]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Saved/SingleGridWidget600E58F94922FEC7ACA746943042BAFB.tmp' to '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset'
+[2018.01.10-22.28.37:804][157]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset
+[2018.01.10-22.29.04:813][756]BlueprintLog: New page: Compile SingleGridWidget
+[2018.01.10-22.29.05:303][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SingleGridWidget" FILE="../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset" SILENT=true
+[2018.01.10-22.29.05:338][771]LogSavePackage: Save=26.55ms
+[2018.01.10-22.29.05:338][771]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Saved/SingleGridWidgetF8830A8148B2FD1FCD6508A5BFD440E0.tmp' to '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset'
+[2018.01.10-22.29.05:345][771]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset
+[2018.01.10-22.34.24:757][910]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainMenu' took 0.020
+[2018.01.10-22.34.24:762][910]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/SingleGridWidget] ([1] browsable assets)...
+[2018.01.10-22.34.24:762][910]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/SingleGridWidget]
+[2018.01.10-22.34.24:810][910]LogSavePackage: Save=35.07ms
+[2018.01.10-22.34.24:810][910]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Saved/SingleGridWidget_Auto2BB73E6A44AE25DE1FD561FADDD14357A.tmp' to '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Saved/Autosaves/Game/Blueprints/SingleGridWidget_Auto2.uasset'
+[2018.01.10-22.34.24:813][910]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Saved/Autosaves/Game/Blueprints/SingleGridWidget_Auto2.uasset
+[2018.01.10-22.34.24:813][910]LogFileHelpers: Auto-saving content packages took 0.056
+[2018.01.10-22.36.32:410][562]BlueprintLog: New page: Compile SingleGridWidget
+[2018.01.10-22.36.32:985][580]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SingleGridWidget" FILE="../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset" SILENT=true
+[2018.01.10-22.36.33:028][580]LogSavePackage: Save=32.37ms
+[2018.01.10-22.36.33:028][580]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Saved/SingleGridWidget96045D884DD023D974FA6BB38BB602FB.tmp' to '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset'
+[2018.01.10-22.36.33:035][580]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset
+[2018.01.10-22.37.15:278][ 72]BlueprintLog: New page: Compile SingleGridWidget
+[2018.01.10-22.37.15:851][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SingleGridWidget" FILE="../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset" SILENT=true
+[2018.01.10-22.37.15:894][ 92]LogSavePackage: Save=31.17ms
+[2018.01.10-22.37.15:894][ 92]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Saved/SingleGridWidgetD35492D248D48BA3F7C02FBFAE3AF02A.tmp' to '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset'
+[2018.01.10-22.37.15:901][ 92]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset
+[2018.01.10-22.37.20:455][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SingleGridWidget" FILE="../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset" SILENT=true
+[2018.01.10-22.37.20:500][357]LogSavePackage: Save=34.30ms
+[2018.01.10-22.37.20:500][357]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Saved/SingleGridWidgetAE6C81564165D90E1768C59C5A86DFCB.tmp' to '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset'
+[2018.01.10-22.37.20:508][357]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset
+[2018.01.10-22.37.23:174][512]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SingleGridWidget" FILE="../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset" SILENT=true
+[2018.01.10-22.37.23:216][512]LogSavePackage: Save=31.96ms
+[2018.01.10-22.37.23:216][512]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Saved/SingleGridWidget72C18CA94289EB106B29FF82C98F85B1.tmp' to '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset'
+[2018.01.10-22.37.23:224][512]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset
+[2018.01.10-22.44.25:398][770]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainMenu' took 0.020
+[2018.01.10-22.44.25:401][770]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/SingleGridWidget] ([1] browsable assets)...
+[2018.01.10-22.44.25:401][770]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/SingleGridWidget]
+[2018.01.10-22.44.25:448][770]LogSavePackage: Save=33.18ms
+[2018.01.10-22.44.25:448][770]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Saved/SingleGridWidget_Auto342EE168C4287571C443C44B0640C9573.tmp' to '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Saved/Autosaves/Game/Blueprints/SingleGridWidget_Auto3.uasset'
+[2018.01.10-22.44.25:452][770]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Saved/Autosaves/Game/Blueprints/SingleGridWidget_Auto3.uasset
+[2018.01.10-22.44.25:452][770]LogFileHelpers: Auto-saving content packages took 0.053
+[2018.01.10-22.47.30:693][326]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SingleGridWidget" FILE="../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset" SILENT=true
+[2018.01.10-22.47.30:748][326]LogSavePackage: Save=42.23ms
+[2018.01.10-22.47.30:748][326]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Saved/SingleGridWidget8DF344524F0063B8B52452A1A58C7101.tmp' to '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset'
+[2018.01.10-22.47.30:756][326]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset
+[2018.01.10-22.47.35:380][600]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.10-22.47.35:397][600]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.01.10-22.47.35:397][600]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.10-22.47.35:398][600]PIE: New page: PIE session: MainMenu (11 Jan 2018 8:47:35 pm)
+[2018.01.10-22.47.35:398][600]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2018.01.10-22.47.35:399][600]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001035s)
+[2018.01.10-22.47.35:400][600]LogAIModule: Creating AISystem for world MainMenu
+[2018.01.10-22.47.35:400][600]LogPlayLevel: PIE: World Init took: (0.001246s)
+[2018.01.10-22.47.35:400][600]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.002560s)
+[2018.01.10-22.47.35:425][600]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.10-22.47.35:444][600]LogInit: FAudioDevice initialized.
+[2018.01.10-22.47.35:475][600]LogLoad: Game class is 'GameModeBase'
+[2018.01.10-22.47.35:477][600]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.01.11-09.47.35
+[2018.01.10-22.47.35:477][600]LogWorld: Bringing up level for play took: 0.000789
+[2018.01.10-22.47.35:480][600]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu -0.87
+[2018.01.10-22.47.35:480][600]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.01.10-22.47.36:102][637]LogNet: Browse: /Game/Maps/Sudoku
+[2018.01.10-22.47.36:102][637]LogLoadingSplash: Loading begins
+[2018.01.10-22.47.36:102][637]LogHMD: FOculusRiftSplash::PushBlackFrame
+[2018.01.10-22.47.36:102][637]LogHMD: FOculusRiftSplash::Show
+[2018.01.10-22.47.36:102][637]LogLoad: LoadMap: /Game/Maps/Sudoku
+[2018.01.10-22.47.36:121][637]Cmd: MEM
+[2018.01.10-22.47.36:140][637]LogMemory: Platform Memory Stats for Windows
+[2018.01.10-22.47.36:140][637]LogMemory: Process Physical Memory: 1117.17 MB used, 1268.41 MB peak
+[2018.01.10-22.47.36:140][637]LogMemory: Process Virtual Memory: 1746.46 MB used, 1746.47 MB peak
+[2018.01.10-22.47.36:140][637]LogMemory: Physical Memory: 7311.46 MB used,  8964.71 MB free, 16276.17 MB total
+[2018.01.10-22.47.36:140][637]LogMemory: Virtual Memory: 2685.99 MB used,  8964.71 MB free, 134217728.00 MB total
+[2018.01.10-22.47.36:140][637]LogMemory: 
+[2018.01.10-22.47.36:140][637]Allocator Stats for TBB: (not implemented)
+[2018.01.10-22.47.36:167][637]LogAIModule: Creating AISystem for world Sudoku
+[2018.01.10-22.47.36:167][637]LogLoad: Game class is 'GameModeBase'
+[2018.01.10-22.47.36:169][637]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sudoku.Sudoku up for play (max tick rate 60) at 2018.01.11-09.47.36
+[2018.01.10-22.47.36:169][637]LogWorld: Bringing up level for play took: 0.001122
+[2018.01.10-22.47.36:170][637]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.01.10-22.47.36:231][637]LogLoadingSplash: Loading ends
+[2018.01.10-22.47.36:231][637]LogHMD: FOculusRiftSplash::Hide
+[2018.01.10-22.47.36:231][637]LogHMD: FOculusRiftSplash::PushBlackFrame
+[2018.01.10-22.47.36:231][637]LogLoad: Took 0.128625 seconds to LoadMap(/Game/Maps/Sudoku)
+[2018.01.10-22.47.37:766][727]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.01.10-22.47.37:807][727]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.01.10-22.47.51:382][523]BlueprintLog: New page: Compile SingleGridWidget
+[2018.01.10-22.47.51:809][539]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SingleGridWidget" FILE="../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset" SILENT=true
+[2018.01.10-22.47.51:851][539]LogSavePackage: Save=31.49ms
+[2018.01.10-22.47.51:851][539]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Saved/SingleGridWidgetF0FCC4AF4BD6E55EE5CD709DF4E60008.tmp' to '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset'
+[2018.01.10-22.47.51:860][539]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset
+[2018.01.10-22.47.55:519][755]BlueprintLog: New page: Compile SingleGridWidget
+[2018.01.10-22.47.56:018][775]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SingleGridWidget" FILE="../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset" SILENT=true
+[2018.01.10-22.47.56:058][775]LogSavePackage: Save=29.75ms
+[2018.01.10-22.47.56:058][775]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Saved/SingleGridWidget2DFEBB764EF0BD9CCF066DBF77E26AD4.tmp' to '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset'
+[2018.01.10-22.47.56:065][775]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset
+[2018.01.10-22.47.57:469][858]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.10-22.47.57:483][858]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.01.10-22.47.57:483][858]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.10-22.47.57:483][858]PIE: New page: PIE session: MainMenu (11 Jan 2018 8:47:57 pm)
+[2018.01.10-22.47.57:483][858]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2018.01.10-22.47.57:484][858]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000928s)
+[2018.01.10-22.47.57:485][858]LogAIModule: Creating AISystem for world MainMenu
+[2018.01.10-22.47.57:485][858]LogPlayLevel: PIE: World Init took: (0.000695s)
+[2018.01.10-22.47.57:485][858]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.001812s)
+[2018.01.10-22.47.57:506][858]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.10-22.47.57:523][858]LogInit: FAudioDevice initialized.
+[2018.01.10-22.47.57:556][858]LogLoad: Game class is 'GameModeBase'
+[2018.01.10-22.47.57:558][858]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.01.11-09.47.57
+[2018.01.10-22.47.57:558][858]LogWorld: Bringing up level for play took: 0.000908
+[2018.01.10-22.47.57:560][858]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu -0.79
+[2018.01.10-22.47.57:560][858]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.01.10-22.47.58:017][885]LogNet: Browse: /Game/Maps/Sudoku
+[2018.01.10-22.47.58:017][885]LogLoadingSplash: Loading begins
+[2018.01.10-22.47.58:017][885]LogHMD: FOculusRiftSplash::PushBlackFrame
+[2018.01.10-22.47.58:017][885]LogHMD: FOculusRiftSplash::Show
+[2018.01.10-22.47.58:017][885]LogLoad: LoadMap: /Game/Maps/Sudoku
+[2018.01.10-22.47.58:034][885]Cmd: MEM
+[2018.01.10-22.47.58:048][885]LogMemory: Platform Memory Stats for Windows
+[2018.01.10-22.47.58:048][885]LogMemory: Process Physical Memory: 1129.17 MB used, 1268.41 MB peak
+[2018.01.10-22.47.58:048][885]LogMemory: Process Virtual Memory: 1762.95 MB used, 1802.68 MB peak
+[2018.01.10-22.47.58:048][885]LogMemory: Physical Memory: 7299.94 MB used,  8976.23 MB free, 16276.17 MB total
+[2018.01.10-22.47.58:048][885]LogMemory: Virtual Memory: 2701.99 MB used,  8976.23 MB free, 134217728.00 MB total
+[2018.01.10-22.47.58:048][885]LogMemory: 
+[2018.01.10-22.47.58:048][885]Allocator Stats for TBB: (not implemented)
+[2018.01.10-22.47.58:072][885]LogAIModule: Creating AISystem for world Sudoku
+[2018.01.10-22.47.58:072][885]LogLoad: Game class is 'GameModeBase'
+[2018.01.10-22.47.58:074][885]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sudoku.Sudoku up for play (max tick rate 60) at 2018.01.11-09.47.58
+[2018.01.10-22.47.58:074][885]LogWorld: Bringing up level for play took: 0.000872
+[2018.01.10-22.47.58:075][885]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.01.10-22.47.58:136][885]LogLoadingSplash: Loading ends
+[2018.01.10-22.47.58:136][885]LogHMD: FOculusRiftSplash::Hide
+[2018.01.10-22.47.58:136][885]LogHMD: FOculusRiftSplash::PushBlackFrame
+[2018.01.10-22.47.58:136][885]LogLoad: Took 0.119269 seconds to LoadMap(/Game/Maps/Sudoku)
+[2018.01.10-22.47.59:552][967]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.01.10-22.47.59:593][967]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.01.10-22.48.14:685][846]BlueprintLog: New page: Compile SingleGridWidget
+[2018.01.10-22.48.15:397][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SingleGridWidget" FILE="../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset" SILENT=true
+[2018.01.10-22.48.15:435][880]LogSavePackage: Save=28.69ms
+[2018.01.10-22.48.15:435][880]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Saved/SingleGridWidget24E6E5A54F9002A0254A0180EDECE645.tmp' to '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset'
+[2018.01.10-22.48.15:441][880]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset
+[2018.01.10-22.48.18:996][ 91]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.10-22.48.19:008][ 91]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.01.10-22.48.19:008][ 91]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.10-22.48.19:008][ 91]PIE: New page: PIE session: MainMenu (11 Jan 2018 8:48:19 pm)
+[2018.01.10-22.48.19:009][ 91]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2018.01.10-22.48.19:009][ 91]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000881s)
+[2018.01.10-22.48.19:010][ 91]LogAIModule: Creating AISystem for world MainMenu
+[2018.01.10-22.48.19:010][ 91]LogPlayLevel: PIE: World Init took: (0.000661s)
+[2018.01.10-22.48.19:010][ 91]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.001722s)
+[2018.01.10-22.48.19:029][ 91]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.10-22.48.19:044][ 91]LogInit: FAudioDevice initialized.
+[2018.01.10-22.48.19:077][ 91]LogLoad: Game class is 'GameModeBase'
+[2018.01.10-22.48.19:079][ 91]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.01.11-09.48.19
+[2018.01.10-22.48.19:079][ 91]LogWorld: Bringing up level for play took: 0.000702
+[2018.01.10-22.48.19:081][ 91]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu 0.731
+[2018.01.10-22.48.19:081][ 91]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.01.10-22.48.19:484][115]LogNet: Browse: /Game/Maps/Sudoku
+[2018.01.10-22.48.19:484][115]LogLoadingSplash: Loading begins
+[2018.01.10-22.48.19:484][115]LogHMD: FOculusRiftSplash::PushBlackFrame
+[2018.01.10-22.48.19:484][115]LogHMD: FOculusRiftSplash::Show
+[2018.01.10-22.48.19:484][115]LogLoad: LoadMap: /Game/Maps/Sudoku
+[2018.01.10-22.48.19:500][115]Cmd: MEM
+[2018.01.10-22.48.19:516][115]LogMemory: Platform Memory Stats for Windows
+[2018.01.10-22.48.19:517][115]LogMemory: Process Physical Memory: 1145.49 MB used, 1268.41 MB peak
+[2018.01.10-22.48.19:517][115]LogMemory: Process Virtual Memory: 1767.16 MB used, 1819.16 MB peak
+[2018.01.10-22.48.19:517][115]LogMemory: Physical Memory: 7264.51 MB used,  9011.66 MB free, 16276.17 MB total
+[2018.01.10-22.48.19:517][115]LogMemory: Virtual Memory: 2733.99 MB used,  9011.66 MB free, 134217728.00 MB total
+[2018.01.10-22.48.19:517][115]LogMemory: 
+[2018.01.10-22.48.19:517][115]Allocator Stats for TBB: (not implemented)
+[2018.01.10-22.48.19:539][115]LogAIModule: Creating AISystem for world Sudoku
+[2018.01.10-22.48.19:539][115]LogLoad: Game class is 'GameModeBase'
+[2018.01.10-22.48.19:542][115]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sudoku.Sudoku up for play (max tick rate 60) at 2018.01.11-09.48.19
+[2018.01.10-22.48.19:542][115]LogWorld: Bringing up level for play took: 0.000915
+[2018.01.10-22.48.19:542][115]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.01.10-22.48.19:606][115]LogLoadingSplash: Loading ends
+[2018.01.10-22.48.19:606][115]LogHMD: FOculusRiftSplash::Hide
+[2018.01.10-22.48.19:606][115]LogHMD: FOculusRiftSplash::PushBlackFrame
+[2018.01.10-22.48.19:606][115]LogLoad: Took 0.121610 seconds to LoadMap(/Game/Maps/Sudoku)
+[2018.01.10-22.49.32:369][476]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.01.10-22.49.32:409][476]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.01.10-22.49.33:037][513]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.10-22.49.33:049][513]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.01.10-22.49.33:049][513]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.10-22.49.33:050][513]PIE: New page: PIE session: MainMenu (11 Jan 2018 8:49:33 pm)
+[2018.01.10-22.49.33:050][513]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2018.01.10-22.49.33:051][513]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000900s)
+[2018.01.10-22.49.33:051][513]LogAIModule: Creating AISystem for world MainMenu
+[2018.01.10-22.49.33:051][513]LogPlayLevel: PIE: World Init took: (0.000637s)
+[2018.01.10-22.49.33:051][513]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.001760s)
+[2018.01.10-22.49.33:069][513]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.10-22.49.33:085][513]LogInit: FAudioDevice initialized.
+[2018.01.10-22.49.33:116][513]LogLoad: Game class is 'GameModeBase'
+[2018.01.10-22.49.33:118][513]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.01.11-09.49.33
+[2018.01.10-22.49.33:118][513]LogWorld: Bringing up level for play took: 0.000595
+[2018.01.10-22.49.33:120][513]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu 0.77
+[2018.01.10-22.49.33:120][513]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.01.10-22.49.34:156][575]LogNet: Browse: /Game/Maps/Sudoku
+[2018.01.10-22.49.34:156][575]LogLoadingSplash: Loading begins
+[2018.01.10-22.49.34:156][575]LogHMD: FOculusRiftSplash::PushBlackFrame
+[2018.01.10-22.49.34:156][575]LogHMD: FOculusRiftSplash::Show
+[2018.01.10-22.49.34:156][575]LogLoad: LoadMap: /Game/Maps/Sudoku
+[2018.01.10-22.49.34:173][575]Cmd: MEM
+[2018.01.10-22.49.34:188][575]LogMemory: Platform Memory Stats for Windows
+[2018.01.10-22.49.34:188][575]LogMemory: Process Physical Memory: 1149.18 MB used, 1268.41 MB peak
+[2018.01.10-22.49.34:188][575]LogMemory: Process Virtual Memory: 1808.43 MB used, 1843.41 MB peak
+[2018.01.10-22.49.34:188][575]LogMemory: Physical Memory: 7301.75 MB used,  8974.42 MB free, 16276.17 MB total
+[2018.01.10-22.49.34:188][575]LogMemory: Virtual Memory: 2765.99 MB used,  8974.42 MB free, 134217728.00 MB total
+[2018.01.10-22.49.34:188][575]LogMemory: 
+[2018.01.10-22.49.34:188][575]Allocator Stats for TBB: (not implemented)
+[2018.01.10-22.49.34:215][575]LogAIModule: Creating AISystem for world Sudoku
+[2018.01.10-22.49.34:215][575]LogLoad: Game class is 'GameModeBase'
+[2018.01.10-22.49.34:218][575]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sudoku.Sudoku up for play (max tick rate 60) at 2018.01.11-09.49.34
+[2018.01.10-22.49.34:218][575]LogWorld: Bringing up level for play took: 0.001143
+[2018.01.10-22.49.34:218][575]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.01.10-22.49.34:281][575]LogLoadingSplash: Loading ends
+[2018.01.10-22.49.34:281][575]LogHMD: FOculusRiftSplash::Hide
+[2018.01.10-22.49.34:281][575]LogHMD: FOculusRiftSplash::PushBlackFrame
+[2018.01.10-22.49.34:281][575]LogLoad: Took 0.124606 seconds to LoadMap(/Game/Maps/Sudoku)
+[2018.01.10-22.49.35:892][670]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.01.10-22.49.35:931][670]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.01.10-22.49.37:012][734]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.10-22.49.37:026][734]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.01.10-22.49.37:026][734]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.10-22.49.37:026][734]PIE: New page: PIE session: MainMenu (11 Jan 2018 8:49:37 pm)
+[2018.01.10-22.49.37:026][734]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2018.01.10-22.49.37:028][734]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001379s)
+[2018.01.10-22.49.37:028][734]LogAIModule: Creating AISystem for world MainMenu
+[2018.01.10-22.49.37:029][734]LogPlayLevel: PIE: World Init took: (0.000821s)
+[2018.01.10-22.49.37:029][734]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.002472s)
+[2018.01.10-22.49.37:049][734]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.10-22.49.37:068][734]LogInit: FAudioDevice initialized.
+[2018.01.10-22.49.37:101][734]LogLoad: Game class is 'GameModeBase'
+[2018.01.10-22.49.37:103][734]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.01.11-09.49.37
+[2018.01.10-22.49.37:104][734]LogWorld: Bringing up level for play took: 0.001078
+[2018.01.10-22.49.37:105][734]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu 0.755
+[2018.01.10-22.49.37:105][734]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.01.10-22.49.37:576][762]LogNet: Browse: /Game/Maps/Sudoku
+[2018.01.10-22.49.37:576][762]LogLoadingSplash: Loading begins
+[2018.01.10-22.49.37:576][762]LogHMD: FOculusRiftSplash::PushBlackFrame
+[2018.01.10-22.49.37:576][762]LogHMD: FOculusRiftSplash::Show
+[2018.01.10-22.49.37:576][762]LogLoad: LoadMap: /Game/Maps/Sudoku
+[2018.01.10-22.49.37:591][762]Cmd: MEM
+[2018.01.10-22.49.37:606][762]LogMemory: Platform Memory Stats for Windows
+[2018.01.10-22.49.37:606][762]LogMemory: Process Physical Memory: 1152.02 MB used, 1268.41 MB peak
+[2018.01.10-22.49.37:606][762]LogMemory: Process Virtual Memory: 1844.44 MB used, 1859.38 MB peak
+[2018.01.10-22.49.37:606][762]LogMemory: Physical Memory: 7304.60 MB used,  8971.57 MB free, 16276.17 MB total
+[2018.01.10-22.49.37:606][762]LogMemory: Virtual Memory: 2793.99 MB used,  8971.57 MB free, 134217728.00 MB total
+[2018.01.10-22.49.37:606][762]LogMemory: 
+[2018.01.10-22.49.37:606][762]Allocator Stats for TBB: (not implemented)
+[2018.01.10-22.49.37:632][762]LogAIModule: Creating AISystem for world Sudoku
+[2018.01.10-22.49.37:632][762]LogLoad: Game class is 'GameModeBase'
+[2018.01.10-22.49.37:634][762]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sudoku.Sudoku up for play (max tick rate 60) at 2018.01.11-09.49.37
+[2018.01.10-22.49.37:634][762]LogWorld: Bringing up level for play took: 0.001031
+[2018.01.10-22.49.37:635][762]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.01.10-22.49.37:694][762]LogLoadingSplash: Loading ends
+[2018.01.10-22.49.37:694][762]LogHMD: FOculusRiftSplash::Hide
+[2018.01.10-22.49.37:694][762]LogHMD: FOculusRiftSplash::PushBlackFrame
+[2018.01.10-22.49.37:694][762]LogLoad: Took 0.117799 seconds to LoadMap(/Game/Maps/Sudoku)
+[2018.01.10-22.49.39:583][874]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.01.10-22.49.39:615][874]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.01.10-22.49.40:796][944]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.10-22.49.40:809][944]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.01.10-22.49.40:809][944]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.10-22.49.40:809][944]PIE: New page: PIE session: MainMenu (11 Jan 2018 8:49:40 pm)
+[2018.01.10-22.49.40:809][944]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2018.01.10-22.49.40:810][944]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000849s)
+[2018.01.10-22.49.40:811][944]LogAIModule: Creating AISystem for world MainMenu
+[2018.01.10-22.49.40:811][944]LogPlayLevel: PIE: World Init took: (0.000774s)
+[2018.01.10-22.49.40:811][944]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.001798s)
+[2018.01.10-22.49.40:829][944]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.10-22.49.40:845][944]LogInit: FAudioDevice initialized.
+[2018.01.10-22.49.40:876][944]LogLoad: Game class is 'GameModeBase'
+[2018.01.10-22.49.40:878][944]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.01.11-09.49.40
+[2018.01.10-22.49.40:878][944]LogWorld: Bringing up level for play took: 0.000866
+[2018.01.10-22.49.40:880][944]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu 0.53
+[2018.01.10-22.49.40:880][944]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.01.10-22.49.41:418][976]LogNet: Browse: /Game/Maps/Sudoku
+[2018.01.10-22.49.41:418][976]LogLoadingSplash: Loading begins
+[2018.01.10-22.49.41:418][976]LogHMD: FOculusRiftSplash::PushBlackFrame
+[2018.01.10-22.49.41:418][976]LogHMD: FOculusRiftSplash::Show
+[2018.01.10-22.49.41:418][976]LogLoad: LoadMap: /Game/Maps/Sudoku
+[2018.01.10-22.49.41:435][976]Cmd: MEM
+[2018.01.10-22.49.41:453][976]LogMemory: Platform Memory Stats for Windows
+[2018.01.10-22.49.41:453][976]LogMemory: Process Physical Memory: 1152.72 MB used, 1268.41 MB peak
+[2018.01.10-22.49.41:453][976]LogMemory: Process Virtual Memory: 1836.34 MB used, 1876.50 MB peak
+[2018.01.10-22.49.41:453][976]LogMemory: Physical Memory: 7295.86 MB used,  8980.32 MB free, 16276.17 MB total
+[2018.01.10-22.49.41:453][976]LogMemory: Virtual Memory: 2789.99 MB used,  8980.32 MB free, 134217728.00 MB total
+[2018.01.10-22.49.41:453][976]LogMemory: 
+[2018.01.10-22.49.41:453][976]Allocator Stats for TBB: (not implemented)
+[2018.01.10-22.49.41:478][976]LogAIModule: Creating AISystem for world Sudoku
+[2018.01.10-22.49.41:478][976]LogLoad: Game class is 'GameModeBase'
+[2018.01.10-22.49.41:480][976]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sudoku.Sudoku up for play (max tick rate 60) at 2018.01.11-09.49.41
+[2018.01.10-22.49.41:480][976]LogWorld: Bringing up level for play took: 0.001137
+[2018.01.10-22.49.41:481][976]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.01.10-22.49.41:541][976]LogLoadingSplash: Loading ends
+[2018.01.10-22.49.41:541][976]LogHMD: FOculusRiftSplash::Hide
+[2018.01.10-22.49.41:541][976]LogHMD: FOculusRiftSplash::PushBlackFrame
+[2018.01.10-22.49.41:541][976]LogLoad: Took 0.122728 seconds to LoadMap(/Game/Maps/Sudoku)
+[2018.01.10-22.49.43:555][ 96]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.01.10-22.49.43:590][ 96]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.01.10-22.49.49:705][459]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SingleGridWidget" FILE="../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset" SILENT=true
+[2018.01.10-22.49.49:748][459]LogSavePackage: Save=30.32ms
+[2018.01.10-22.49.49:748][459]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Saved/SingleGridWidgetC2D913E14128E71FC6F0319DC8EFC765.tmp' to '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset'
+[2018.01.10-22.49.49:754][459]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset
+[2018.01.10-22.54.54:398][490]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.10-22.54.54:413][490]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.01.10-22.54.54:413][490]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.10-22.54.54:414][490]PIE: New page: PIE session: MainMenu (11 Jan 2018 8:54:54 pm)
+[2018.01.10-22.54.54:414][490]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2018.01.10-22.54.54:415][490]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001301s)
+[2018.01.10-22.54.54:416][490]LogAIModule: Creating AISystem for world MainMenu
+[2018.01.10-22.54.54:416][490]LogPlayLevel: PIE: World Init took: (0.001069s)
+[2018.01.10-22.54.54:416][490]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.002670s)
+[2018.01.10-22.54.54:440][490]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.10-22.54.54:460][490]LogInit: FAudioDevice initialized.
+[2018.01.10-22.54.54:491][490]LogLoad: Game class is 'GameModeBase'
+[2018.01.10-22.54.54:494][490]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.01.11-09.54.54
+[2018.01.10-22.54.54:494][490]LogWorld: Bringing up level for play took: 0.000847
+[2018.01.10-22.54.54:496][490]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu 0.146
+[2018.01.10-22.54.54:496][490]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.01.10-22.54.55:019][521]LogNet: Browse: /Game/Maps/Sudoku
+[2018.01.10-22.54.55:019][521]LogLoadingSplash: Loading begins
+[2018.01.10-22.54.55:019][521]LogHMD: FOculusRiftSplash::PushBlackFrame
+[2018.01.10-22.54.55:019][521]LogHMD: FOculusRiftSplash::Show
+[2018.01.10-22.54.55:019][521]LogLoad: LoadMap: /Game/Maps/Sudoku
+[2018.01.10-22.54.55:035][521]Cmd: MEM
+[2018.01.10-22.54.55:050][521]LogMemory: Platform Memory Stats for Windows
+[2018.01.10-22.54.55:050][521]LogMemory: Process Physical Memory: 1156.29 MB used, 1268.41 MB peak
+[2018.01.10-22.54.55:050][521]LogMemory: Process Virtual Memory: 1784.02 MB used, 1876.50 MB peak
+[2018.01.10-22.54.55:050][521]LogMemory: Physical Memory: 7319.21 MB used,  8956.96 MB free, 16276.17 MB total
+[2018.01.10-22.54.55:050][521]LogMemory: Virtual Memory: 2754.80 MB used,  8956.96 MB free, 134217728.00 MB total
+[2018.01.10-22.54.55:050][521]LogMemory: 
+[2018.01.10-22.54.55:050][521]Allocator Stats for TBB: (not implemented)
+[2018.01.10-22.54.55:075][521]LogAIModule: Creating AISystem for world Sudoku
+[2018.01.10-22.54.55:075][521]LogLoad: Game class is 'GameModeBase'
+[2018.01.10-22.54.55:078][521]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sudoku.Sudoku up for play (max tick rate 60) at 2018.01.11-09.54.55
+[2018.01.10-22.54.55:078][521]LogWorld: Bringing up level for play took: 0.001199
+[2018.01.10-22.54.55:078][521]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.01.10-22.54.55:142][521]LogLoadingSplash: Loading ends
+[2018.01.10-22.54.55:142][521]LogHMD: FOculusRiftSplash::Hide
+[2018.01.10-22.54.55:142][521]LogHMD: FOculusRiftSplash::PushBlackFrame
+[2018.01.10-22.54.55:142][521]LogLoad: Took 0.122520 seconds to LoadMap(/Game/Maps/Sudoku)
+[2018.01.10-22.54.56:606][606]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.01.10-22.54.56:645][606]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.01.10-22.54.57:790][674]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.10-22.54.57:803][674]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.01.10-22.54.57:803][674]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.10-22.54.57:803][674]PIE: New page: PIE session: MainMenu (11 Jan 2018 8:54:57 pm)
+[2018.01.10-22.54.57:803][674]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2018.01.10-22.54.57:804][674]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000903s)
+[2018.01.10-22.54.57:805][674]LogAIModule: Creating AISystem for world MainMenu
+[2018.01.10-22.54.57:805][674]LogPlayLevel: PIE: World Init took: (0.000769s)
+[2018.01.10-22.54.57:805][674]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.001866s)
+[2018.01.10-22.54.57:827][674]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.10-22.54.57:841][674]LogInit: FAudioDevice initialized.
+[2018.01.10-22.54.57:876][674]LogLoad: Game class is 'GameModeBase'
+[2018.01.10-22.54.57:878][674]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.01.11-09.54.57
+[2018.01.10-22.54.57:878][674]LogWorld: Bringing up level for play took: 0.000768
+[2018.01.10-22.54.57:879][674]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu -0.47
+[2018.01.10-22.54.57:880][674]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.01.10-22.54.58:399][705]LogNet: Browse: /Game/Maps/Sudoku
+[2018.01.10-22.54.58:399][705]LogLoadingSplash: Loading begins
+[2018.01.10-22.54.58:400][705]LogHMD: FOculusRiftSplash::PushBlackFrame
+[2018.01.10-22.54.58:400][705]LogHMD: FOculusRiftSplash::Show
+[2018.01.10-22.54.58:400][705]LogLoad: LoadMap: /Game/Maps/Sudoku
+[2018.01.10-22.54.58:418][705]Cmd: MEM
+[2018.01.10-22.54.58:434][705]LogMemory: Platform Memory Stats for Windows
+[2018.01.10-22.54.58:434][705]LogMemory: Process Physical Memory: 1156.30 MB used, 1268.41 MB peak
+[2018.01.10-22.54.58:434][705]LogMemory: Process Virtual Memory: 1834.42 MB used, 1876.50 MB peak
+[2018.01.10-22.54.58:434][705]LogMemory: Physical Memory: 7336.49 MB used,  8939.68 MB free, 16276.17 MB total
+[2018.01.10-22.54.58:434][705]LogMemory: Virtual Memory: 2798.80 MB used,  8939.68 MB free, 134217728.00 MB total
+[2018.01.10-22.54.58:434][705]LogMemory: 
+[2018.01.10-22.54.58:434][705]Allocator Stats for TBB: (not implemented)
+[2018.01.10-22.54.58:458][705]LogAIModule: Creating AISystem for world Sudoku
+[2018.01.10-22.54.58:458][705]LogLoad: Game class is 'GameModeBase'
+[2018.01.10-22.54.58:461][705]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sudoku.Sudoku up for play (max tick rate 60) at 2018.01.11-09.54.58
+[2018.01.10-22.54.58:461][705]LogWorld: Bringing up level for play took: 0.000913
+[2018.01.10-22.54.58:461][705]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.01.10-22.54.58:521][705]LogLoadingSplash: Loading ends
+[2018.01.10-22.54.58:521][705]LogHMD: FOculusRiftSplash::Hide
+[2018.01.10-22.54.58:521][705]LogHMD: FOculusRiftSplash::PushBlackFrame
+[2018.01.10-22.54.58:521][705]LogLoad: Took 0.121033 seconds to LoadMap(/Game/Maps/Sudoku)
+[2018.01.10-22.54.59:819][781]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.01.10-22.54.59:859][781]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.01.10-22.58.46:827][253]BlueprintLog: New page: Compile SingleGridWidget
+[2018.01.10-22.59.02:392][ 73]BlueprintLog: New page: Compile SingleGridWidget
+[2018.01.10-22.59.02:915][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SingleGridWidget" FILE="../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset" SILENT=true
+[2018.01.10-22.59.02:958][ 94]LogSavePackage: Save=30.55ms
+[2018.01.10-22.59.02:958][ 94]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Saved/SingleGridWidget3BB19B2241611AEB73BA5792B9556531.tmp' to '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset'
+[2018.01.10-22.59.02:966][ 94]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Blueprints/SingleGridWidget.uasset
+[2018.01.10-22.59.32:623][499]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainMenu' took 0.018
+[2018.01.10-22.59.32:627][499]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/GridBlockWidget] ([1] browsable assets)...
+[2018.01.10-22.59.32:627][499]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/GridBlockWidget]
+[2018.01.10-22.59.32:656][499]LogSavePackage: Save=15.38ms
+[2018.01.10-22.59.32:656][499]LogSavePackage: Moving '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Saved/GridBlockWidget_Auto4A8BC8AB5484C1E002D32478166D51AC3.tmp' to '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Saved/Autosaves/Game/Blueprints/GridBlockWidget_Auto4.uasset'
+[2018.01.10-22.59.32:659][499]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Saved/Autosaves/Game/Blueprints/GridBlockWidget_Auto4.uasset
+[2018.01.10-22.59.32:659][499]LogFileHelpers: Auto-saving content packages took 0.035
