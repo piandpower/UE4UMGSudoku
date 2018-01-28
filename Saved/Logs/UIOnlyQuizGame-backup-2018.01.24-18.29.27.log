@@ -1,0 +1,635 @@
+﻿Log file open, 01/13/18 12:58:39
+LogInit:Display: Running engine for game: UIOnlyQuizGame
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1637058944) SRandInit(1637058944).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.549081
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.22.0(build = 519281) feature version = 0. Client runs version (prod = 1).1.22.0(build = 519281) feature version = 0
+LogHMD: GearVR: Emulating GearVR using Oculus Rift!
+LogInit: Build: ++UE4+Release-4.15-CL-3416026
+LogInit: Engine Version: 4.15.2-3416026+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May  1 2017 13:11:28
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.01.13-01.58.41:510][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.13-01.58.41:510][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.13-01.58.41:524][  0]LogInit: Computer: LAPTOP-UBSVTA87
+[2018.01.13-01.58.41:524][  0]LogInit: User: Kaitlyn
+[2018.01.13-01.58.41:524][  0]LogInit: CPU Page size=65536, Cores=4
+[2018.01.13-01.58.41:524][  0]LogInit: High frequency timer resolution =2.531251 MHz
+[2018.01.13-01.58.41:524][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.01.13-01.58.41:524][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.13-01.58.41:524][  0]LogMemory: Process Physical Memory: 269.64 MB used, 269.64 MB peak
+[2018.01.13-01.58.41:524][  0]LogMemory: Process Virtual Memory: 266.27 MB used, 266.27 MB peak
+[2018.01.13-01.58.41:524][  0]LogMemory: Physical Memory: 9330.22 MB used,  6945.95 MB free, 16276.17 MB total
+[2018.01.13-01.58.41:524][  0]LogMemory: Virtual Memory: 703.69 MB used,  6945.95 MB free, 134217728.00 MB total
+[2018.01.13-01.58.41:726][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
+[2018.01.13-01.58.42:813][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.13-01.58.42:878][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2018.01.13-01.58.42:878][  0]LogD3D11RHI:       6061/0/8138 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.01.13-01.58.42:896][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.01.13-01.58.42:896][  0]LogD3D11RHI:       128/0/8138 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.01.13-01.58.42:901][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.13-01.58.42:901][  0]LogD3D11RHI:       0/0/8138 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.13-01.58.42:901][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.13-01.58.42:913][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.13-01.58.42:913][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.13-01.58.42:913][  0]LogWindows: EnumDisplayDevices:
+[2018.01.13-01.58.42:913][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:0 D:1)
+[2018.01.13-01.58.42:914][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.01.13-01.58.42:914][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.01.13-01.58.42:914][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:1 D:1)
+[2018.01.13-01.58.42:914][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.01.13-01.58.42:914][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2018.01.13-01.58.42:914][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.01.13-01.58.42:914][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.01.13-01.58.42:915][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.01.13-01.58.42:955][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.01.13-01.58.42:955][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.13-01.58.43:013][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.01.13-01.58.43:070][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Intermediate/Shaders/WorkingDirectory/10832/).
+[2018.01.13-01.58.43:071][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Kaitlyn/AppData/Local/Temp/UnrealShaderWorkingDir/F14767714F234CBC33AD14B00A38FDA0/'.
+[2018.01.13-01.58.43:071][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.01.13-01.58.44:863][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.13-01.58.44:944][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.01.13-01.58.45:024][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.13-01.58.45:100][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.01.13-01.58.45:176][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.01.13-01.58.45:253][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.13-01.58.45:328][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.13-01.58.45:407][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.13-01.58.45:474][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.01.13-01.58.45:549][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.01.13-01.58.45:626][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.13-01.58.45:714][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.13-01.58.45:802][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.13-01.58.45:906][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.13-01.58.45:981][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.13-01.58.46:148][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.13-01.58.46:148][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.13-01.58.46:211][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.01.13-01.58.46:378][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.01.13-01.58.46:434][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.01.13-01.58.46:518][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.13-01.58.46:601][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.13-01.58.46:680][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.13-01.58.46:767][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.01.13-01.58.46:767][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.01.13-01.58.47:434][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.01.13-01.58.47:611][  0]LogDerivedDataCache: Loaded boot cache 0.18s 50MB C:/Users/Kaitlyn/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2018.01.13-01.58.47:611][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Kaitlyn/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2018.01.13-01.58.47:611][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.13-01.58.47:611][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.13-01.58.47:611][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.13-01.58.47:611][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.13-01.58.47:635][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.13-01.58.47:648][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Kaitlyn/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.13-01.58.47:671][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.13-01.58.47:676][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.13-01.58.47:676][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.13-01.58.48:817][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.13-01.58.48:824][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.01.13-01.58.49:155][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.13-01.58.49:224][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.13-01.58.49:296][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.13-01.58.49:296][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.01.13-01.58.49:296][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.01.13-01.58.50:476][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: uionlyquizgame, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 250772748
+[2018.01.13-01.58.50:547][  0]LogAssetRegistry: FAssetRegistry took 0.0247 seconds to start up
+[2018.01.13-01.58.50:642][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.060103 seconds
+[2018.01.13-01.58.50:652][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2018.01.13-01.58.50:652][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2018.01.13-01.58.50:652][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.13-01.58.50:738][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.13-01.58.54:258][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.13-01.58.54:316][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.13-01.58.55:093][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.13-01.58.55:724][  0]SourceControl: Info Source control is disabled
+[2018.01.13-01.58.55:859][  0]SourceControl: Info Source control is disabled
+[2018.01.13-01.58.55:940][  0]SourceControl: Info Source control is disabled
+[2018.01.13-01.58.56:013][  0]SourceControl: Info Source control is disabled
+[2018.01.13-01.58.58:112][  0]LogEngine: Initializing Engine...
+[2018.01.13-01.58.58:157][  0]LogHMD: Oculus plugin initialized. Version: 4.15.2-3416026+++UE4+Release-4.15, LibOVR: 1.22.0, SDK: 1.10.0, built May  1 2017, 13:17:57
+[2018.01.13-01.58.58:317][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.13-01.58.58:318][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.13-01.58.58:588][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.13-01.58.58:628][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.13-01.58.58:666][  0]LogInit: FAudioDevice initialized.
+[2018.01.13-01.58.58:710][  0]LogDerivedDataCache: Saved boot cache 0.04s 50MB C:/Users/Kaitlyn/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2018.01.13-01.58.58:721][  0]LogInit: Texture streaming: Enabled
+[2018.01.13-01.58.58:889][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.13-01.58.59:050][  0]LogInit: Transaction tracking system initialized
+[2018.01.13-01.58.59:589][  0]BlueprintLog: New page: Editor Load
+[2018.01.13-01.59.01:278][  0]LocalizationService: Info Localization service is disabled
+[2018.01.13-01.59.02:922][  0]LogConsoleResponse:Display: 
+[2018.01.13-01.59.03:164][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.13-01.59.03:164][  0]LogCook:Display: Mobile HDR setting 1
+[2018.01.13-01.59.03:818][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/' took 0.02s
+[2018.01.13-01.59.04:876][  0]SourceControl: Info Source control is disabled
+[2018.01.13-01.59.04:879][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.13-01.59.04:882][  0]LightingResults: New page: Lighting Build
+[2018.01.13-01.59.04:949][  0]MapCheck: New page: Map Check
+[2018.01.13-01.59.04:949][  0]LightingResults: New page: Lighting Build
+[2018.01.13-01.59.05:307][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.01.13-01.59.05:357][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.13-01.59.05:362][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.13-01.59.05:445][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 83.937ms to complete.
+[2018.01.13-01.59.05:445][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.568
+[2018.01.13-01.59.05:759][  0]LogCollectionManager: Loaded 0 collections in 0.002504 seconds
+[2018.01.13-01.59.05:892][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Saved/Collections/' took 0.01s
+[2018.01.13-01.59.05:892][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Developers/Kaitlyn/Collections/' took 0.01s
+[2018.01.13-01.59.05:892][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Collections/' took 0.01s
+[2018.01.13-01.59.05:892][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.01.13-01.59.05:908][  0]LogContentBrowser: Native class hierarchy populated in 0.0145 seconds. Added 2245 classes and 453 folders.
+[2018.01.13-01.59.06:032][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.01.13-01.59.06:194][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.01.13-01.59.06:267][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.01.13-01.59.06:473][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.01.13-01.59.06:519][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.01.13-01.59.06:635][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.01.13-01.59.06:635][  0]LogLoad: (Engine Initialization) Total time: 29.23 seconds
+[2018.01.13-01.59.06:635][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.17 seconds
+[2018.01.13-01.59.06:635][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.01.13-01.59.06:635][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.01.13-01.59.06:977][  0]LogOcInput: OculusInput pre-init called
+[2018.01.13-01.59.06:997][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.22.0
+[2018.01.13-01.59.07:037][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.13-01.59.07:047][  0]LogSlate: Took 0.001401 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.13-01.59.07:053][  0]LogSlate: Took 0.001747 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.13-01.59.07:061][  0]LogSlate: Took 0.001609 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.13-01.59.07:277][  0]LogRenderer: Reallocating scene render targets to support 1192x568 NumSamples 1 (Frame:2).
+[2018.01.13-01.59.07:774][  2]LogAssetRegistry: Asset discovery search completed in 17.2505 seconds
+[2018.01.13-01.59.07:775][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000021 seconds (found 0 objects)
+[2018.01.13-01.59.07:775][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000066 seconds (updated 0 objects)
+[2018.01.13-01.59.08:108][  3]LogSlate: Took 0.001524 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.13-01.59.11:135][ 12]LogSlate: Took 0.000352 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.13-01.59.14:684][220]LogSlate: Took 0.000366 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.13-01.59.15:242][220]LogAIModule: Creating AISystem for world Sudoku
+[2018.01.13-01.59.15:285][220]Cmd: MAP LOAD FILE="../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Maps/Sudoku.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.13-01.59.15:285][220]LightingResults: New page: Lighting Build
+[2018.01.13-01.59.15:286][220]LoadErrors: New page: Loading map: Sudoku.umap
+[2018.01.13-01.59.15:289][220]MapCheck: New page: Map Check
+[2018.01.13-01.59.15:289][220]LightingResults: New page: Lighting Build
+[2018.01.13-01.59.15:373][220]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.13-01.59.15:396][220]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.13-01.59.15:474][220]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 78.235ms to complete.
+[2018.01.13-01.59.15:475][220]LogFileHelpers: Loading map 'Sudoku' took 0.192
+[2018.01.13-01.59.19:740][434]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 112 classes and 0 folders.
+[2018.01.13-01.59.21:777][434]LogSlate: Took 0.001683 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.01.13-01.59.32:858][ 47]LogSlate: Took 0.001506 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.01.13-01.59.49:637][972]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.13-01.59.49:664][972]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Sudoku.Sudoku:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sudoku.Sudoku:PersistentLevel.Sudoku' with GeneratedClass '/Game/Maps/Sudoku.Sudoku_C' with ClassGeneratedBy '/Game/Maps/Sudoku.Sudoku:PersistentLevel.Sudoku'
+[2018.01.13-01.59.49:665][972]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.13-01.59.49:669][972]PIE: New page: PIE session: Sudoku (13 Jan 2018 11:59:49 pm)
+[2018.01.13-01.59.49:670][972]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sudoku
+[2018.01.13-01.59.49:674][972]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003729s)
+[2018.01.13-01.59.49:675][972]LogAIModule: Creating AISystem for world Sudoku
+[2018.01.13-01.59.49:675][972]LogPlayLevel: PIE: World Init took: (0.000680s)
+[2018.01.13-01.59.49:676][972]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sudoku.Sudoku to /Game/Maps/UEDPIE_0_Sudoku.Sudoku (0.005488s)
+[2018.01.13-01.59.49:715][972]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.13-01.59.49:732][972]LogInit: FAudioDevice initialized.
+[2018.01.13-01.59.49:794][972]LogLoad: Game class is 'GameModeBase'
+[2018.01.13-01.59.49:797][972]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sudoku.Sudoku up for play (max tick rate 60) at 2018.01.13-12.59.49
+[2018.01.13-01.59.49:798][972]LogWorld: Bringing up level for play took: 0.001955
+[2018.01.13-01.59.49:868][972]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2018.01.13-01.59.49:941][972]LogBlueprintUserMessages: [SingleGrid3] 9
+[2018.01.13-01.59.49:941][972]LogBlueprintUserMessages: [SingleGrid6] 4
+[2018.01.13-01.59.49:943][972]LogScriptCore:Warning: Script Msg: Attempted to access index -1 from array AvailableNumArr of length 1!
+[2018.01.13-01.59.49:943][972]LogBlueprintUserMessages: [SingleGrid9] 0
+[2018.01.13-01.59.49:943][972]LogScriptCore:Warning: Script Msg: Attempted to remove an item from an invalid index from array AvailableNumArr [-1/0]!
+[2018.01.13-01.59.49:945][972]LogScriptCore:Warning: Script Msg: Attempted to access index -1 from array AvailableNumArr of length 3!
+[2018.01.13-01.59.49:945][972]LogScriptCore:Warning: Script Msg: Attempted to remove an item from an invalid index from array AvailableNumArr [-1/2]!
+[2018.01.13-01.59.49:949][972]LogBlueprintUserMessages: [SingleGrid3] 4
+[2018.01.13-01.59.49:949][972]LogBlueprintUserMessages: [SingleGrid6] 7
+[2018.01.13-01.59.49:949][972]LogBlueprintUserMessages: [SingleGrid9] 2
+[2018.01.13-01.59.49:951][972]LogScriptCore:Warning: Script Msg: Attempted to access index -1 from array AvailableNumArr of length 1!
+[2018.01.13-01.59.49:951][972]LogScriptCore:Warning: Script Msg: Attempted to remove an item from an invalid index from array AvailableNumArr [-1/0]!
+[2018.01.13-01.59.49:956][972]LogBlueprintUserMessages: [SingleGrid3] 8
+[2018.01.13-01.59.49:956][972]LogBlueprintUserMessages: [SingleGrid6] 3
+[2018.01.13-01.59.49:956][972]LogScriptCore:Warning: Script Msg: Attempted to access index -1 from array AvailableNumArr of length 1!
+[2018.01.13-01.59.49:956][972]LogBlueprintUserMessages: [SingleGrid9] 0
+[2018.01.13-01.59.49:956][972]LogScriptCore:Warning: Script Msg: Attempted to remove an item from an invalid index from array AvailableNumArr [-1/0]!
+[2018.01.13-01.59.49:964][972]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Sudoku -0.386
+[2018.01.13-01.59.49:964][972]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Sudoku.Sudoku:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sudoku.Sudoku:PersistentLevel.Sudoku' with GeneratedClass '/Game/Maps/Sudoku.Sudoku_C' with ClassGeneratedBy '/Game/Maps/Sudoku.Sudoku:PersistentLevel.Sudoku'
+[2018.01.13-02.00.06:869][982]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Sudoku.Sudoku:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sudoku.Sudoku:PersistentLevel.Sudoku' with GeneratedClass '/Game/Maps/Sudoku.Sudoku_C' with ClassGeneratedBy '/Game/Maps/Sudoku.Sudoku:PersistentLevel.Sudoku'
+[2018.01.13-02.00.06:922][982]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Sudoku.Sudoku:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sudoku.Sudoku:PersistentLevel.Sudoku' with GeneratedClass '/Game/Maps/Sudoku.Sudoku_C' with ClassGeneratedBy '/Game/Maps/Sudoku.Sudoku:PersistentLevel.Sudoku'
+[2018.01.13-02.00.07:402][  5]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.13-02.00.07:427][  5]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Sudoku.Sudoku:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sudoku.Sudoku:PersistentLevel.Sudoku' with GeneratedClass '/Game/Maps/Sudoku.Sudoku_C' with ClassGeneratedBy '/Game/Maps/Sudoku.Sudoku:PersistentLevel.Sudoku'
+[2018.01.13-02.00.07:427][  5]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.13-02.00.07:427][  5]PIE: New page: PIE session: Sudoku (14 Jan 2018 12:00:07 am)
+[2018.01.13-02.00.07:427][  5]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sudoku
+[2018.01.13-02.00.07:428][  5]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000938s)
+[2018.01.13-02.00.07:429][  5]LogAIModule: Creating AISystem for world Sudoku
+[2018.01.13-02.00.07:429][  5]LogPlayLevel: PIE: World Init took: (0.000595s)
+[2018.01.13-02.00.07:429][  5]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sudoku.Sudoku to /Game/Maps/UEDPIE_0_Sudoku.Sudoku (0.001717s)
+[2018.01.13-02.00.07:467][  5]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.13-02.00.07:497][  5]LogInit: FAudioDevice initialized.
+[2018.01.13-02.00.07:557][  5]LogLoad: Game class is 'GameModeBase'
+[2018.01.13-02.00.07:560][  5]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sudoku.Sudoku up for play (max tick rate 60) at 2018.01.13-13.00.07
+[2018.01.13-02.00.07:560][  5]LogWorld: Bringing up level for play took: 0.000792
+[2018.01.13-02.00.07:624][  5]LogBlueprintUserMessages: [SingleGrid3] 9
+[2018.01.13-02.00.07:624][  5]LogBlueprintUserMessages: [SingleGrid6] 3
+[2018.01.13-02.00.07:624][  5]LogScriptCore:Warning: Script Msg: Attempted to access index -1 from array AvailableNumArr of length 1!
+[2018.01.13-02.00.07:624][  5]LogBlueprintUserMessages: [SingleGrid9] 0
+[2018.01.13-02.00.07:624][  5]LogScriptCore:Warning: Script Msg: Attempted to remove an item from an invalid index from array AvailableNumArr [-1/0]!
+[2018.01.13-02.00.07:628][  5]LogScriptCore:Warning: Script Msg: Attempted to access index -1 from array AvailableNumArr of length 1!
+[2018.01.13-02.00.07:628][  5]LogScriptCore:Warning: Script Msg: Attempted to remove an item from an invalid index from array AvailableNumArr [-1/0]!
+[2018.01.13-02.00.07:633][  5]LogBlueprintUserMessages: [SingleGrid3] 3
+[2018.01.13-02.00.07:634][  5]LogBlueprintUserMessages: [SingleGrid6] 5
+[2018.01.13-02.00.07:634][  5]LogBlueprintUserMessages: [SingleGrid9] 6
+[2018.01.13-02.00.07:639][  5]LogScriptCore:Warning: Script Msg: Attempted to access index -1 from array AvailableNumArr of length 1!
+[2018.01.13-02.00.07:639][  5]LogScriptCore:Warning: Script Msg: Attempted to remove an item from an invalid index from array AvailableNumArr [-1/0]!
+[2018.01.13-02.00.07:644][  5]LogBlueprintUserMessages: [SingleGrid3] 1
+[2018.01.13-02.00.07:645][  5]LogBlueprintUserMessages: [SingleGrid6] 5
+[2018.01.13-02.00.07:645][  5]LogScriptCore:Warning: Script Msg: Attempted to access index -1 from array AvailableNumArr of length 1!
+[2018.01.13-02.00.07:645][  5]LogBlueprintUserMessages: [SingleGrid9] 0
+[2018.01.13-02.00.07:645][  5]LogScriptCore:Warning: Script Msg: Attempted to remove an item from an invalid index from array AvailableNumArr [-1/0]!
+[2018.01.13-02.00.07:651][  5]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Sudoku -0.699
+[2018.01.13-02.00.07:652][  5]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Sudoku.Sudoku:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sudoku.Sudoku:PersistentLevel.Sudoku' with GeneratedClass '/Game/Maps/Sudoku.Sudoku_C' with ClassGeneratedBy '/Game/Maps/Sudoku.Sudoku:PersistentLevel.Sudoku'
+[2018.01.13-02.00.09:879][136]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Sudoku.Sudoku:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sudoku.Sudoku:PersistentLevel.Sudoku' with GeneratedClass '/Game/Maps/Sudoku.Sudoku_C' with ClassGeneratedBy '/Game/Maps/Sudoku.Sudoku:PersistentLevel.Sudoku'
+[2018.01.13-02.00.09:922][136]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Sudoku.Sudoku:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sudoku.Sudoku:PersistentLevel.Sudoku' with GeneratedClass '/Game/Maps/Sudoku.Sudoku_C' with ClassGeneratedBy '/Game/Maps/Sudoku.Sudoku:PersistentLevel.Sudoku'
+[2018.01.13-02.00.10:318][157]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.13-02.00.10:341][157]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Sudoku.Sudoku:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sudoku.Sudoku:PersistentLevel.Sudoku' with GeneratedClass '/Game/Maps/Sudoku.Sudoku_C' with ClassGeneratedBy '/Game/Maps/Sudoku.Sudoku:PersistentLevel.Sudoku'
+[2018.01.13-02.00.10:341][157]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.13-02.00.10:341][157]PIE: New page: PIE session: Sudoku (14 Jan 2018 12:00:10 am)
+[2018.01.13-02.00.10:341][157]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sudoku
+[2018.01.13-02.00.10:342][157]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000919s)
+[2018.01.13-02.00.10:343][157]LogAIModule: Creating AISystem for world Sudoku
+[2018.01.13-02.00.10:343][157]LogPlayLevel: PIE: World Init took: (0.000574s)
+[2018.01.13-02.00.10:343][157]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sudoku.Sudoku to /Game/Maps/UEDPIE_0_Sudoku.Sudoku (0.001639s)
+[2018.01.13-02.00.10:369][157]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.13-02.00.10:385][157]LogInit: FAudioDevice initialized.
+[2018.01.13-02.00.10:417][157]LogLoad: Game class is 'GameModeBase'
+[2018.01.13-02.00.10:420][157]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sudoku.Sudoku up for play (max tick rate 60) at 2018.01.13-13.00.10
+[2018.01.13-02.00.10:420][157]LogWorld: Bringing up level for play took: 0.000755
+[2018.01.13-02.00.10:484][157]LogBlueprintUserMessages: [SingleGrid3] 1
+[2018.01.13-02.00.10:485][157]LogBlueprintUserMessages: [SingleGrid6] 4
+[2018.01.13-02.00.10:485][157]LogScriptCore:Warning: Script Msg: Attempted to access index -1 from array AvailableNumArr of length 1!
+[2018.01.13-02.00.10:485][157]LogBlueprintUserMessages: [SingleGrid9] 0
+[2018.01.13-02.00.10:485][157]LogScriptCore:Warning: Script Msg: Attempted to remove an item from an invalid index from array AvailableNumArr [-1/0]!
+[2018.01.13-02.00.10:487][157]LogScriptCore:Warning: Script Msg: Attempted to access index -1 from array AvailableNumArr of length 1!
+[2018.01.13-02.00.10:487][157]LogScriptCore:Warning: Script Msg: Attempted to remove an item from an invalid index from array AvailableNumArr [-1/0]!
+[2018.01.13-02.00.10:490][157]LogBlueprintUserMessages: [SingleGrid3] 8
+[2018.01.13-02.00.10:490][157]LogBlueprintUserMessages: [SingleGrid6] 6
+[2018.01.13-02.00.10:490][157]LogBlueprintUserMessages: [SingleGrid9] 1
+[2018.01.13-02.00.10:492][157]LogScriptCore:Warning: Script Msg: Attempted to access index -1 from array AvailableNumArr of length 1!
+[2018.01.13-02.00.10:492][157]LogScriptCore:Warning: Script Msg: Attempted to remove an item from an invalid index from array AvailableNumArr [-1/0]!
+[2018.01.13-02.00.10:497][157]LogBlueprintUserMessages: [SingleGrid3] 9
+[2018.01.13-02.00.10:498][157]LogBlueprintUserMessages: [SingleGrid6] 7
+[2018.01.13-02.00.10:498][157]LogScriptCore:Warning: Script Msg: Attempted to access index -1 from array AvailableNumArr of length 1!
+[2018.01.13-02.00.10:498][157]LogBlueprintUserMessages: [SingleGrid9] 0
+[2018.01.13-02.00.10:498][157]LogScriptCore:Warning: Script Msg: Attempted to remove an item from an invalid index from array AvailableNumArr [-1/0]!
+[2018.01.13-02.00.10:503][157]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Sudoku 0.153
+[2018.01.13-02.00.10:504][157]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Sudoku.Sudoku:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sudoku.Sudoku:PersistentLevel.Sudoku' with GeneratedClass '/Game/Maps/Sudoku.Sudoku_C' with ClassGeneratedBy '/Game/Maps/Sudoku.Sudoku:PersistentLevel.Sudoku'
+[2018.01.13-02.00.12:110][251]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Sudoku.Sudoku:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sudoku.Sudoku:PersistentLevel.Sudoku' with GeneratedClass '/Game/Maps/Sudoku.Sudoku_C' with ClassGeneratedBy '/Game/Maps/Sudoku.Sudoku:PersistentLevel.Sudoku'
+[2018.01.13-02.00.12:151][251]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Sudoku.Sudoku:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sudoku.Sudoku:PersistentLevel.Sudoku' with GeneratedClass '/Game/Maps/Sudoku.Sudoku_C' with ClassGeneratedBy '/Game/Maps/Sudoku.Sudoku:PersistentLevel.Sudoku'
+[2018.01.13-02.00.12:464][267]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.13-02.00.12:486][267]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Sudoku.Sudoku:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sudoku.Sudoku:PersistentLevel.Sudoku' with GeneratedClass '/Game/Maps/Sudoku.Sudoku_C' with ClassGeneratedBy '/Game/Maps/Sudoku.Sudoku:PersistentLevel.Sudoku'
+[2018.01.13-02.00.12:486][267]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.13-02.00.12:486][267]PIE: New page: PIE session: Sudoku (14 Jan 2018 12:00:12 am)
+[2018.01.13-02.00.12:486][267]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sudoku
+[2018.01.13-02.00.12:487][267]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000943s)
+[2018.01.13-02.00.12:488][267]LogAIModule: Creating AISystem for world Sudoku
+[2018.01.13-02.00.12:488][267]LogPlayLevel: PIE: World Init took: (0.000612s)
+[2018.01.13-02.00.12:488][267]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sudoku.Sudoku to /Game/Maps/UEDPIE_0_Sudoku.Sudoku (0.001772s)
+[2018.01.13-02.00.12:512][267]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.13-02.00.12:526][267]LogInit: FAudioDevice initialized.
+[2018.01.13-02.00.12:565][267]LogLoad: Game class is 'GameModeBase'
+[2018.01.13-02.00.12:567][267]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sudoku.Sudoku up for play (max tick rate 60) at 2018.01.13-13.00.12
+[2018.01.13-02.00.12:567][267]LogWorld: Bringing up level for play took: 0.001131
+[2018.01.13-02.00.12:630][267]LogBlueprintUserMessages: [SingleGrid3] 6
+[2018.01.13-02.00.12:630][267]LogBlueprintUserMessages: [SingleGrid6] 9
+[2018.01.13-02.00.12:631][267]LogScriptCore:Warning: Script Msg: Attempted to access index -1 from array AvailableNumArr of length 1!
+[2018.01.13-02.00.12:631][267]LogBlueprintUserMessages: [SingleGrid9] 0
+[2018.01.13-02.00.12:631][267]LogScriptCore:Warning: Script Msg: Attempted to remove an item from an invalid index from array AvailableNumArr [-1/0]!
+[2018.01.13-02.00.12:633][267]LogScriptCore:Warning: Script Msg: Attempted to access index -1 from array AvailableNumArr of length 1!
+[2018.01.13-02.00.12:633][267]LogScriptCore:Warning: Script Msg: Attempted to remove an item from an invalid index from array AvailableNumArr [-1/0]!
+[2018.01.13-02.00.12:636][267]LogBlueprintUserMessages: [SingleGrid3] 1
+[2018.01.13-02.00.12:636][267]LogBlueprintUserMessages: [SingleGrid6] 6
+[2018.01.13-02.00.12:636][267]LogBlueprintUserMessages: [SingleGrid9] 8
+[2018.01.13-02.00.12:639][267]LogScriptCore:Warning: Script Msg: Attempted to access index -1 from array AvailableNumArr of length 1!
+[2018.01.13-02.00.12:639][267]LogScriptCore:Warning: Script Msg: Attempted to remove an item from an invalid index from array AvailableNumArr [-1/0]!
+[2018.01.13-02.00.12:643][267]LogBlueprintUserMessages: [SingleGrid3] 4
+[2018.01.13-02.00.12:643][267]LogBlueprintUserMessages: [SingleGrid6] 7
+[2018.01.13-02.00.12:643][267]LogScriptCore:Warning: Script Msg: Attempted to access index -1 from array AvailableNumArr of length 2!
+[2018.01.13-02.00.12:643][267]LogScriptCore:Warning: Script Msg: Attempted to remove an item from an invalid index from array AvailableNumArr [-1/1]!
+[2018.01.13-02.00.12:644][267]LogBlueprintUserMessages: [SingleGrid9] 6
+[2018.01.13-02.00.12:650][267]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Sudoku 0.3
+[2018.01.13-02.00.12:650][267]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Sudoku.Sudoku:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sudoku.Sudoku:PersistentLevel.Sudoku' with GeneratedClass '/Game/Maps/Sudoku.Sudoku_C' with ClassGeneratedBy '/Game/Maps/Sudoku.Sudoku:PersistentLevel.Sudoku'
+[2018.01.13-02.00.13:971][344]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Sudoku.Sudoku:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sudoku.Sudoku:PersistentLevel.Sudoku' with GeneratedClass '/Game/Maps/Sudoku.Sudoku_C' with ClassGeneratedBy '/Game/Maps/Sudoku.Sudoku:PersistentLevel.Sudoku'
+[2018.01.13-02.00.14:009][344]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Sudoku.Sudoku:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sudoku.Sudoku:PersistentLevel.Sudoku' with GeneratedClass '/Game/Maps/Sudoku.Sudoku_C' with ClassGeneratedBy '/Game/Maps/Sudoku.Sudoku:PersistentLevel.Sudoku'
+[2018.01.13-06.00.28:755][676]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.13-06.00.29:018][677]Cmd: QUIT_EDITOR
+[2018.01.13-06.00.29:613][677]LogExit: Preparing to exit.
+[2018.01.13-06.00.30:804][677]LogDirectoryWatcher: A directory notification for 'C:/Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/' was aborted.
+[2018.01.13-06.00.30:916][677]LogExit: Editor shut down
+[2018.01.13-06.00.30:917][677]LogExit: Transaction tracking system shut down
+[2018.01.13-06.00.31:125][677]LogObj: Freed 0b from 0 cluster array pools.
+[2018.01.13-06.00.31:126][677]LogExit: Object subsystem successfully closed.
+[2018.01.13-06.00.31:167][677]LogD3D11RHI: Shutdown
+[2018.01.13-06.00.31:167][677]LogD3D11RHI: CleanupD3DDevice
+[2018.01.13-06.00.31:242][677]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.01.13-06.00.31:302][677]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (506)
+[2018.01.13-06.00.31:302][677]LogModuleManager: Shutting down and abandoning module SequencerWidgets (504)
+[2018.01.13-06.00.31:302][677]LogModuleManager: Shutting down and abandoning module BlueprintGraph (502)
+[2018.01.13-06.00.31:302][677]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (500)
+[2018.01.13-06.00.31:303][677]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2018.01.13-06.00.31:304][677]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2018.01.13-06.00.31:304][677]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2018.01.13-06.00.31:304][677]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2018.01.13-06.00.31:304][677]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2018.01.13-06.00.31:313][677]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2018.01.13-06.00.31:313][677]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2018.01.13-06.00.31:313][677]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2018.01.13-06.00.31:313][677]LogDirectoryWatcher: A directory notification for 'C:/Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Collections/' was aborted.
+[2018.01.13-06.00.31:313][677]LogDirectoryWatcher: A directory notification for 'C:/Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/Developers/Kaitlyn/Collections/' was aborted.
+[2018.01.13-06.00.31:313][677]LogDirectoryWatcher: A directory notification for 'C:/Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Saved/Collections/' was aborted.
+[2018.01.13-06.00.31:314][677]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2018.01.13-06.00.31:314][677]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2018.01.13-06.00.31:314][677]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2018.01.13-06.00.31:315][677]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2018.01.13-06.00.31:315][677]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2018.01.13-06.00.31:315][677]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2018.01.13-06.00.31:315][677]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2018.01.13-06.00.31:315][677]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2018.01.13-06.00.31:315][677]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2018.01.13-06.00.31:315][677]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2018.01.13-06.00.31:316][677]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2018.01.13-06.00.31:316][677]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2018.01.13-06.00.31:316][677]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2018.01.13-06.00.31:318][677]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2018.01.13-06.00.31:318][677]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2018.01.13-06.00.31:318][677]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2018.01.13-06.00.31:318][677]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2018.01.13-06.00.31:318][677]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2018.01.13-06.00.31:318][677]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2018.01.13-06.00.31:318][677]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2018.01.13-06.00.31:318][677]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2018.01.13-06.00.31:318][677]LogModuleManager: Shutting down and abandoning module Media (443)
+[2018.01.13-06.00.31:318][677]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2018.01.13-06.00.31:318][677]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2018.01.13-06.00.31:318][677]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2018.01.13-06.00.31:319][677]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2018.01.13-06.00.31:319][677]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2018.01.13-06.00.31:320][677]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2018.01.13-06.00.31:320][677]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2018.01.13-06.00.31:320][677]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2018.01.13-06.00.31:320][677]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2018.01.13-06.00.31:321][677]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2018.01.13-06.00.31:321][677]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2018.01.13-06.00.31:327][677]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2018.01.13-06.00.31:327][677]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2018.01.13-06.00.31:327][677]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2018.01.13-06.00.31:327][677]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2018.01.13-06.00.31:327][677]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2018.01.13-06.00.32:266][677]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2018.01.13-06.00.32:266][677]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2018.01.13-06.00.32:266][677]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2018.01.13-06.00.32:267][677]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2018.01.13-06.00.32:268][677]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2018.01.13-06.00.32:269][677]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2018.01.13-06.00.32:270][677]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2018.01.13-06.00.32:270][677]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2018.01.13-06.00.32:270][677]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2018.01.13-06.00.32:271][677]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2018.01.13-06.00.32:271][677]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2018.01.13-06.00.32:272][677]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2018.01.13-06.00.32:272][677]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2018.01.13-06.00.32:272][677]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2018.01.13-06.00.32:272][677]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2018.01.13-06.00.32:273][677]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2018.01.13-06.00.32:273][677]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2018.01.13-06.00.32:273][677]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2018.01.13-06.00.32:273][677]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2018.01.13-06.00.32:274][677]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2018.01.13-06.00.32:275][677]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2018.01.13-06.00.32:275][677]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2018.01.13-06.00.32:276][677]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2018.01.13-06.00.32:276][677]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2018.01.13-06.00.32:278][677]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2018.01.13-06.00.32:321][677]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2018.01.13-06.00.32:323][677]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2018.01.13-06.00.32:324][677]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2018.01.13-06.00.32:326][677]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2018.01.13-06.00.32:326][677]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2018.01.13-06.00.32:327][677]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2018.01.13-06.00.32:329][677]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2018.01.13-06.00.32:330][677]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2018.01.13-06.00.32:330][677]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2018.01.13-06.00.32:338][677]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2018.01.13-06.00.32:338][677]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2018.01.13-06.00.32:338][677]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2018.01.13-06.00.32:339][677]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2018.01.13-06.00.32:339][677]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2018.01.13-06.00.32:340][677]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2018.01.13-06.00.32:340][677]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2018.01.13-06.00.32:341][677]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2018.01.13-06.00.32:341][677]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2018.01.13-06.00.32:341][677]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2018.01.13-06.00.32:341][677]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2018.01.13-06.00.32:341][677]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2018.01.13-06.00.32:341][677]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2018.01.13-06.00.32:341][677]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2018.01.13-06.00.32:341][677]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2018.01.13-06.00.32:341][677]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2018.01.13-06.00.32:341][677]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2018.01.13-06.00.32:341][677]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2018.01.13-06.00.32:423][677]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2018.01.13-06.00.32:426][677]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2018.01.13-06.00.32:426][677]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2018.01.13-06.00.32:426][677]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2018.01.13-06.00.32:426][677]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2018.01.13-06.00.32:426][677]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2018.01.13-06.00.32:426][677]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2018.01.13-06.00.32:426][677]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2018.01.13-06.00.32:426][677]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2018.01.13-06.00.32:426][677]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2018.01.13-06.00.32:426][677]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2018.01.13-06.00.32:426][677]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2018.01.13-06.00.32:428][677]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2018.01.13-06.00.32:428][677]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2018.01.13-06.00.32:429][677]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2018.01.13-06.00.32:429][677]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2018.01.13-06.00.32:429][677]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2018.01.13-06.00.32:429][677]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2018.01.13-06.00.32:429][677]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2018.01.13-06.00.32:429][677]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2018.01.13-06.00.32:429][677]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2018.01.13-06.00.32:431][677]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2018.01.13-06.00.32:432][677]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2018.01.13-06.00.32:432][677]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2018.01.13-06.00.32:432][677]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2018.01.13-06.00.32:432][677]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2018.01.13-06.00.32:432][677]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2018.01.13-06.00.32:433][677]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2018.01.13-06.00.32:435][677]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2018.01.13-06.00.32:435][677]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2018.01.13-06.00.32:436][677]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2018.01.13-06.00.32:436][677]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2018.01.13-06.00.32:436][677]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2018.01.13-06.00.32:436][677]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2018.01.13-06.00.32:437][677]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2018.01.13-06.00.32:437][677]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2018.01.13-06.00.32:439][677]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2018.01.13-06.00.32:440][677]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2018.01.13-06.00.32:440][677]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2018.01.13-06.00.32:441][677]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2018.01.13-06.00.32:442][677]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2018.01.13-06.00.32:442][677]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2018.01.13-06.00.32:442][677]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2018.01.13-06.00.32:442][677]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2018.01.13-06.00.32:543][677]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2018.01.13-06.00.32:644][677]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2018.01.13-06.00.32:645][677]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2018.01.13-06.00.32:645][677]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2018.01.13-06.00.32:645][677]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2018.01.13-06.00.32:645][677]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2018.01.13-06.00.32:645][677]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2018.01.13-06.00.32:646][677]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2018.01.13-06.00.32:648][677]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2018.01.13-06.00.32:648][677]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2018.01.13-06.00.32:648][677]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2018.01.13-06.00.32:648][677]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2018.01.13-06.00.32:648][677]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2018.01.13-06.00.32:648][677]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2018.01.13-06.00.32:650][677]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2018.01.13-06.00.32:650][677]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2018.01.13-06.00.32:650][677]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2018.01.13-06.00.32:651][677]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2018.01.13-06.00.32:651][677]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2018.01.13-06.00.32:651][677]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2018.01.13-06.00.32:653][677]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2018.01.13-06.00.32:653][677]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2018.01.13-06.00.32:653][677]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2018.01.13-06.00.32:654][677]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2018.01.13-06.00.32:654][677]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2018.01.13-06.00.32:659][677]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2018.01.13-06.00.32:659][677]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2018.01.13-06.00.32:659][677]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2018.01.13-06.00.32:659][677]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2018.01.13-06.00.32:659][677]LogModuleManager: Shutting down and abandoning module Core (154)
+[2018.01.13-06.00.32:659][677]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2018.01.13-06.00.32:799][677]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.01.13-06.00.32:799][677]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Kaitlyn/Documents/GitHub/UE4UMGSudoku/Content/' was aborted.
+[2018.01.13-06.00.32:799][677]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.01.13-06.00.32:799][677]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2018.01.13-06.00.32:803][677]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2018.01.13-06.00.32:803][677]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2018.01.13-06.00.32:803][677]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2018.01.13-06.00.32:804][677]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2018.01.13-06.00.32:804][677]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2018.01.13-06.00.32:804][677]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2018.01.13-06.00.32:804][677]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2018.01.13-06.00.32:805][677]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2018.01.13-06.00.32:806][677]LogDerivedDataCache: Shutdown
+[2018.01.13-06.00.32:806][677]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2018.01.13-06.00.32:806][677]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2018.01.13-06.00.32:806][677]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2018.01.13-06.00.32:807][677]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2018.01.13-06.00.32:807][677]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2018.01.13-06.00.32:807][677]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2018.01.13-06.00.32:807][677]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2018.01.13-06.00.32:807][677]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2018.01.13-06.00.32:807][677]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2018.01.13-06.00.32:808][677]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2018.01.13-06.00.32:808][677]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2018.01.13-06.00.32:808][677]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2018.01.13-06.00.32:808][677]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2018.01.13-06.00.32:809][677]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2018.01.13-06.00.32:809][677]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2018.01.13-06.00.32:809][677]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2018.01.13-06.00.32:809][677]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2018.01.13-06.00.32:809][677]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2018.01.13-06.00.32:809][677]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2018.01.13-06.00.32:809][677]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2018.01.13-06.00.32:809][677]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2018.01.13-06.00.32:809][677]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2018.01.13-06.00.32:809][677]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2018.01.13-06.00.32:809][677]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2018.01.13-06.00.32:809][677]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2018.01.13-06.00.32:809][677]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2018.01.13-06.00.32:809][677]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2018.01.13-06.00.32:809][677]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2018.01.13-06.00.32:809][677]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2018.01.13-06.00.32:809][677]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2018.01.13-06.00.32:809][677]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2018.01.13-06.00.32:809][677]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2018.01.13-06.00.32:809][677]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2018.01.13-06.00.32:809][677]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2018.01.13-06.00.32:809][677]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2018.01.13-06.00.32:809][677]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2018.01.13-06.00.32:810][677]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2018.01.13-06.00.32:810][677]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2018.01.13-06.00.32:810][677]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2018.01.13-06.00.32:810][677]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2018.01.13-06.00.32:810][677]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2018.01.13-06.00.32:810][677]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2018.01.13-06.00.32:810][677]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2018.01.13-06.00.32:813][677]LogHMD: Oculus shutdown.
+[2018.01.13-06.00.32:813][677]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2018.01.13-06.00.32:813][677]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2018.01.13-06.00.32:813][677]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2018.01.13-06.00.32:813][677]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2018.01.13-06.00.32:813][677]LogOnline:Display: Unloading online subsystem: NULL
+[2018.01.13-06.00.32:814][677]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2018.01.13-06.00.32:814][677]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2018.01.13-06.00.32:815][677]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.01.13-06.00.32:815][677]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B78762639-46CD-E81A-A25D-1C940E8B2B0A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.2-3416026%2B%2B%2BUE4%2BRelease-4.15&UserID=52020cd641e0477a14291991acc26653%7C25150ad43d104354a172e2e919b0781c%7Cf4f1d3cb-cdcb-4577-9786-c27ab0904b1d&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.01.13-06.00.32:818][677]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2018.01.13-06.00.32:820][677]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.01.13-06.00.32:821][677]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.01.13-06.00.32:821][677]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.01.13-06.00.32:821][677]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.01.13-06.00.32:821][677]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.01.13-06.00.32:838][677]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.01.13-06.00.32:838][677]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.01.13-06.00.32:838][677]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.01.13-06.00.32:839][677]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.01.13-06.00.32:839][677]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.01.13-06.00.32:839][677]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.01.13-06.00.32:839][677]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.01.13-06.00.32:839][677]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.01.13-06.00.32:839][677]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.01.13-06.00.32:839][677]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.01.13-06.00.32:843][677]LogExit: Exiting.
+[2018.01.13-06.00.32:849][677]Log file closed, 01/13/18 17:00:32
